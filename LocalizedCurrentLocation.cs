@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using MonoTouch.Foundation;
 
@@ -14,35 +14,35 @@ namespace MonoTouch
 			localizedStringDictionary.Add(@"fr", @"Lieu actuel");
 			localizedStringDictionary.Add(@"de", @"Aktueller Ort");
 			localizedStringDictionary.Add(@"it", @"Posizione attuale");
-			localizedStringDictionary.Add(@"ja", @"???");
-			localizedStringDictionary.Add(@"es", @"Ubicaci�n actual");
-			localizedStringDictionary.Add(@"ar", @"?????? ??????");
-			localizedStringDictionary.Add(@"ca", @"Ubicaci� actual");
-			localizedStringDictionary.Add(@"cs", @"Soucasn� poloha");
+			localizedStringDictionary.Add(@"ja", @"現在地");
+			localizedStringDictionary.Add(@"es", @"Ubicación actual");
+			localizedStringDictionary.Add(@"ar", @"الموقع الحالي");
+			localizedStringDictionary.Add(@"ca", @"Ubicació actual");
+			localizedStringDictionary.Add(@"cs", @"Současná poloha");
 			localizedStringDictionary.Add(@"da", @"Aktuel lokalitet");
-			localizedStringDictionary.Add(@"el", @"??????sa t?p??es?a");
+			localizedStringDictionary.Add(@"el", @"Τρέχουσα τοποθεσία");
 			localizedStringDictionary.Add(@"en-GB", @"Current Location");
 			localizedStringDictionary.Add(@"fi", @"Nykyinen sijainti");
-			localizedStringDictionary.Add(@"he", @"????? ?????");
+			localizedStringDictionary.Add(@"he", @"מיקום נוכחי");
 			localizedStringDictionary.Add(@"hr", @"Trenutna lokacija");
-			localizedStringDictionary.Add(@"hu", @"Jelenlegi helysz�n");
+			localizedStringDictionary.Add(@"hu", @"Jelenlegi helyszín");
 			localizedStringDictionary.Add(@"id", @"Lokasi Sekarang");
-			localizedStringDictionary.Add(@"ko", @"?? ??");
+			localizedStringDictionary.Add(@"ko", @"현재 위치");
 			localizedStringDictionary.Add(@"ms", @"Lokasi Semasa");
-			localizedStringDictionary.Add(@"no", @"N�v�rende plassering");
-			localizedStringDictionary.Add(@"pl", @"Biezace polozenie");
-			localizedStringDictionary.Add(@"pt", @"Localiza��o Atual");
-			localizedStringDictionary.Add(@"pt-PT", @"Localiza��o actual");
+			localizedStringDictionary.Add(@"no", @"Nåværende plassering");
+			localizedStringDictionary.Add(@"pl", @"Bieżące położenie");
+			localizedStringDictionary.Add(@"pt", @"Localização Atual");
+			localizedStringDictionary.Add(@"pt-PT", @"Localização actual");
 			localizedStringDictionary.Add(@"ro", @"Loc actual");
-			localizedStringDictionary.Add(@"ru", @"??????? ??????????");
-			localizedStringDictionary.Add(@"sk", @"Aktu�lna poloha");
+			localizedStringDictionary.Add(@"ru", @"Текущее размещение");
+			localizedStringDictionary.Add(@"sk", @"Aktuálna poloha");
 			localizedStringDictionary.Add(@"sv", @"Nuvarande plats");
-			localizedStringDictionary.Add(@"th", @"???????????????");
-			localizedStringDictionary.Add(@"tr", @"Su Anki Yer");
-			localizedStringDictionary.Add(@"uk", @"??????? ?????");
-			localizedStringDictionary.Add(@"vi", @"V? tr� Hi?n t?i");
-			localizedStringDictionary.Add(@"zh-CN", @"????");
-			localizedStringDictionary.Add(@"zh-TW", @"????");
+			localizedStringDictionary.Add(@"th", @"ที่ตั้งปัจจุบัน");
+			localizedStringDictionary.Add(@"tr", @"Şu Anki Yer");
+			localizedStringDictionary.Add(@"uk", @"Поточне місце");
+			localizedStringDictionary.Add(@"vi", @"Vị trí Hiện tại");
+			localizedStringDictionary.Add(@"zh-CN", @"当前位置");
+			localizedStringDictionary.Add(@"zh-TW", @"目前位置");
 
 			string localizedString = "Current Location";
 
@@ -50,8 +50,9 @@ namespace MonoTouch
 			{
 				localizedString = localizedStringDictionary[NSLocale.CurrentLocale.LanguageCode];
 		    }
-			
+    
     		return localizedString;
 		}
 	}
 }
+
